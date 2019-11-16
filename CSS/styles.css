@@ -4,7 +4,7 @@
 
 /* Main Wrapper */
 .main-wrap   {
-    max-width: 320px;  
+    max-width: 320px;
 }
 
 /* Main parts */
@@ -128,9 +128,74 @@ a:hover {
  
 @media screen and (min-width: 768px )   {
 
+    .main-wrap   {
+        max-width: 768px; 
+        display:flex;
+        flex-direction: column;
+    }
+
+    .main-nav,
+    .nav    {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    list-style-type: none;
+    /* margin:0px;
+    padding:0px; */
+}
+
+
+    .nav-item{
+    display:inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: none;
+    height: 30px;
+    padding-top:10px;
+    text-align: center;
+    margin-left: 25px;
+    margin-right: 25px;
+    max-width: 97%;
+    }
+
+    a   {  
+    text-decoration: none;
+    font-family: 'Raleway';
+    }
+
+    a:hover {
+    color: lightcoral;
+    text-decoration: line-through;
+    }
+
+    header  {
+        display:flex;
+        flex-direction: row-reverse;
+        padding-top: 50px;
+        justify-content: space-around;
+        align-content: center;
+    }
+
+    header img {
+        width:50%;
+    }
+
+    header p {
+        padding-top: 5px;
+        width:50%;
+        align-self:flex-start;
+        font-size: 1.2em;
+        text-align: left;
+    }
+    
+
+    
 }
 
 @media screen and (min-width: 1024px )   {
 
-} 
+    .main-wrap   {
+        max-width: 1024px;  
+    } 
 
+}
