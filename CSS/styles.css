@@ -26,9 +26,16 @@ footer {
     padding:10px 0;
 }
 
+/* Navigation */
+
 h1, h2, h3, p {
     text-align: center;
 }
+
+main p   {
+    color:gray;
+}
+
 
 /* Navigation */
 
