@@ -1,25 +1,30 @@
 *   {
     background-color: rgb(232, 255, 253);
+    box-sizing: border-box;
+    max-width: 85%;
 }
-
+.main-nav   {
+    display: flex;
+    align-items: center;
+}
 .nav {
     display: flex;
     flex-direction: column;
-    align-items: center;
     list-style-type: none;
+    width: 100%;
 
 }
 
 .nav-item   {
    background-color: white;
    display:inline-block;
-    width: auto;
+   width: 100%;
     
 }
 
 .profile-pic {
     display: block;
-    max-width: 85%;
+    max-width: 70%;
     margin-left:auto;
     margin-right: auto;
 }
