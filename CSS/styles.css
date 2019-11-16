@@ -1,38 +1,21 @@
-
-.main-flex  {
-    display:flex;
-    flex-direction: column;
-    align-items: center;
+*   {
+    max-width: 320px;
+    background: lemonchiffon;
 }
 
-.main-nav   {
-    display: flex;
-    align-items: stretch;
-}
-.nav {
-    display: flex;
-    flex-direction: column;
+.main-nav,
+.nav    {
+    display:inline-block;
     list-style-type: none;
-    width: 85%;
-
+    text-align: center;
+    width: 95%;
 }
 
-.nav-item   {
-   background-color: white;
-   width: 100%;
+.nav-item{
+    margin: 10px 0px;
+    background: white;
+    height: 30px;
+    padding-top:10px;
+    text-align: center;
     
-}
-
-.profile-pic {
-    display: block;
-    max-width: 85%;
-    margin-left:auto;
-    margin-right: auto;
-}
-
-footer {
-    display:flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
 }
