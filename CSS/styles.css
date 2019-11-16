@@ -1,11 +1,20 @@
-*   {
+.main-wrap   {
     max-width: 320px;
+    
+}
+header{
+    padding-bottom:25px;
+}
+main{
+    background-color: white;
+    padding-top:25px;
+}
+
+body, footer, .contact    {
+    font-family: 'Raleway';
     background: rgb(249, 249, 249);
 }
 
-body    {
-    font-family: 'Raleway';
-}
 
 .main-nav,
 .nav    {
@@ -38,29 +47,38 @@ a   {
 
 .portfolio-img  {
     display:block;
-    max-width: 90%;
+    max-width: 95%;
     margin-left: auto;
     margin-right: auto;
+    padding-top:25px;
+    
 }
 
 .profile-pic    {
     display:block;
-    max-width: 70%;
+    max-width: 65%;
     margin-left: auto;
     margin-right: auto;
+    padding-top:30px;
+    padding-bottom: 15px;
+}
+
+.portfolio-wrap {
+    padding-bottom: 35px;
 }
 
 h1, h2, h3, p {
     text-align: center;
 }
 
-h2  {
-    font-style: bold;
+.contact{
+    padding-top:35px;
+    padding-bottom:35px;
 }
-
 footer {
     display:flex;
     flex-direction: row;
     justify-content: space-around;
-    border-top: solid 1px gray;
+    border-top: solid 1px lightgray;
+    padding:10px 0;
 }
