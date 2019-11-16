@@ -1,7 +1,10 @@
+/* Main Wrapper */
 .main-wrap   {
-    max-width: 320px;
-    
+    max-width: 320px;  
 }
+
+/* Main parts */
+
 header{
     padding-bottom:25px;
 }
@@ -15,6 +18,19 @@ body, footer, .contact    {
     background: rgb(249, 249, 249);
 }
 
+footer {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-top: solid 1px lightgray;
+    padding:10px 0;
+}
+
+h1, h2, h3, p {
+    text-align: center;
+}
+
+/* Navigation */
 
 .main-nav,
 .nav    {
@@ -22,14 +38,8 @@ body, footer, .contact    {
     list-style-type: none;
     margin:0px;
     padding:0px;
-    
-  
 }
-a   {  
-    text-decoration: none;
-    font-family: Raleway;
-}
-    
+
 
 .nav-item{
     display:block;
@@ -41,9 +51,14 @@ a   {
     margin-left: auto;
     margin-right: auto;
     max-width: 97%;
-    
-    
 }
+
+a   {  
+    text-decoration: none;
+    font-family: Raleway;
+}
+    
+/* Portfolio */
 
 .portfolio-img  {
     display:block;
@@ -67,18 +82,20 @@ a   {
     padding-bottom: 35px;
 }
 
-h1, h2, h3, p {
-    text-align: center;
-}
+/* Contact */
 
 .contact{
     padding-top:35px;
     padding-bottom:35px;
 }
-footer {
-    display:flex;
-    flex-direction: row;
-    justify-content: space-around;
-    border-top: solid 1px lightgray;
-    padding:10px 0;
+
+/* Media Query */
+
+@media screen and (min-width: 768px )   {
+
 }
+
+@media screen and (min-width: 1024px )   {
+
+}
+
