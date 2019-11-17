@@ -4,7 +4,9 @@
 
 /* Main Wrapper */
 .main-wrap   {
-    max-width: 320px;
+    max-width: 95%;
+    margin: auto;
+    padding:0;
 }
 
 /* Main parts */
@@ -38,6 +40,7 @@ h1, h2, h3, p {
 
 main p   {
     color:gray;
+    margin: 15px;
 }
 
 
@@ -115,6 +118,9 @@ a:hover {
     font-family: 'Inconsolata';
 }
 
+.bottom-nav {
+    display: none;
+}
 
 
 /* Contact */
@@ -129,7 +135,8 @@ a:hover {
 @media screen and (min-width: 768px )   {
 
     .main-wrap   {
-        max-width: 768px; 
+        max-width: 90%;
+        margin:auto;
         display:flex;
         flex-direction: column;
     }
@@ -181,21 +188,63 @@ a:hover {
     }
 
     header p {
-        padding-top: 5px;
+        padding-top: 10px;
         width:50%;
         align-self:flex-start;
-        font-size: 1.2em;
+        font-size: 1em;
         text-align: left;
+        margin: 15px 15px;
     }
     
+    #portfolio-wrap {
+        display:flex;
+        flex-wrap:wrap;
+        flex-direction: row;
+    }
 
+    #portfolio-wrap section   {
+        width: 50%;
+        
+    }
+
+    .back-to-top    {
+        display: none;
+    }
+
+    .bottom-nav {
+        display: block;
+    }
+
+    .nav-item2 {
+        display:inline-block;
+        
+        margin-bottom: 10px;
+        background: none;
+        height: 30px;
+        
+        text-align: center;
+        margin-left: 25px;
+        margin-right: 25px;
+        max-width: 97%;
+        }
     
 }
 
 @media screen and (min-width: 1024px )   {
 
     .main-wrap   {
-        max-width: 1024px;  
+        max-width: 90%;
     } 
 
+
+    #portfolio-wrap {
+        display:flex;
+        flex-wrap:wrap;
+        flex-direction: row;
+    }
+
+    #portfolio-wrap section   {
+        width: 33%;
+        
+    }
 }
