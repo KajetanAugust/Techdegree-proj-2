@@ -27,7 +27,7 @@ body, footer, .contact    {
 footer {
     display:flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     border-top: solid 1px lightgray;
     padding:10px 0;
 }
@@ -134,6 +134,8 @@ a:hover {
  
 @media screen and (min-width: 768px )   {
 
+    /* Main Wrapper */
+
     .main-wrap   {
         max-width: 90%;
         margin:auto;
@@ -141,15 +143,15 @@ a:hover {
         flex-direction: column;
     }
 
+    /* Top Navigation */
+
     .main-nav,
     .nav    {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     list-style-type: none;
-    /* margin:0px;
-    padding:0px; */
-}
+    }
 
 
     .nav-item{
@@ -175,6 +177,8 @@ a:hover {
     text-decoration: line-through;
     }
 
+    /* Header profile */
+
     header  {
         display:flex;
         flex-direction: row-reverse;
@@ -196,6 +200,8 @@ a:hover {
         margin: 15px 15px;
     }
     
+    /* Portfolio */
+
     #portfolio-wrap {
         display:flex;
         flex-wrap:wrap;
@@ -206,6 +212,8 @@ a:hover {
         width: 50%;
         
     }
+
+    /* Bottom Navigation */
 
     .back-to-top    {
         display: none;
@@ -232,10 +240,13 @@ a:hover {
 
 @media screen and (min-width: 1024px )   {
 
+    /* Main Wrapper */
+
     .main-wrap   {
         max-width: 90%;
     } 
 
+    /* Portfolio */
 
     #portfolio-wrap {
         display:flex;
@@ -246,5 +257,20 @@ a:hover {
     #portfolio-wrap section   {
         width: 33%;
         
+    }
+
+    /* Top Navigation */
+
+    .nav-and-header {
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-content: center;
+        align-items: center;
+
+    }
+
+    .nav-and-header{
+        margin-top:auto;
     }
 }
