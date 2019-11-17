@@ -70,6 +70,7 @@ main p   {
 a   {  
     text-decoration: none;
     font-family: 'Raleway';
+    font-weight: bold;
 }
 
 a:hover {
@@ -137,7 +138,7 @@ a:hover {
     /* Main Wrapper */
 
     .main-wrap   {
-        max-width: 90%;
+        max-width: 95%;
         margin:auto;
         display:flex;
         flex-direction: column;
@@ -215,6 +216,7 @@ a:hover {
         display:flex;
         flex-wrap:wrap;
         flex-direction: row;
+        padding: 15px;
     }
 
     #portfolio-wrap section   {
@@ -267,12 +269,6 @@ a:hover {
     }
 
     /* Portfolio */
-
-    #portfolio-wrap {
-        display:flex;
-        flex-wrap:wrap;
-        flex-direction: row;
-    }
 
     #portfolio-wrap section   {
         width: 33%;
